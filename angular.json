@@ -33,6 +33,9 @@
             ]
           },
           "configurations": {
+            "github-pages": {
+              "baseHref": "/app-gym/"
+            },
             "production": {
               "budgets": [
                 {
@@ -99,6 +102,10 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
